@@ -3,7 +3,7 @@
 - Module 02 – DevOps Roadmap
 - Roadmap devOps 2026
 
-- Homework - see the Podcast
+## Homework - see the Podcast
   - TBD
 
 - Install GitBash, WSL , OracleVM 
