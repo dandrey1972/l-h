@@ -4,7 +4,8 @@
 - git clone to the l-h Repo
 
 ## Practie 01
-
+- Open the Git bash cli and create folder with your name
+- Do the below steps
 ```
 echo "my new file" > newfile.txt
 ls
