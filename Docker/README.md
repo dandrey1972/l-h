@@ -1,4 +1,4 @@
-# Lab-01 Docker Monopol game
+# Lab-01 Docker Monopoly game
 
 ```
 docker run -it --name monopoly_8443 -p 8443:8443 gonzague/monopoly
