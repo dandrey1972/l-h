@@ -5,7 +5,7 @@
   - Set tag and push it into your docker hub
   - Docker run with port 5023
   - Make sure its runing via the Browser
-  - Remove the image and and container id **docker run time **
+  - Remove the image and and container id **docker run time**
   - Pull the image from your docker hub
   - Docker run with two diffrent port
     - .i.e
