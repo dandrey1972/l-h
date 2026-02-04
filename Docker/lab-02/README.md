@@ -34,7 +34,9 @@ docker run -d   --name web5023   -e PORT=5023   -p 5023:5023   html-server
 docker ps
 docker run -d   --name web5024   -e PORT=5024   -p 5024:5024   html-server
 docker ps
-apk add ncdu
+  ## Add additinal run layer into Dockerfile
+RUN apk add --no-cache python3 && apk add ncdu
+
 
 ```
 # Hands-On– Lab-03-Basic Commands based on Jenkins
