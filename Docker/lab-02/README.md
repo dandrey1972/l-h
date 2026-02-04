@@ -34,8 +34,11 @@ docker run -d   --name web5023   -e PORT=5023   -p 5023:5023   html-server
 docker ps
 docker run -d   --name web5024   -e PORT=5024   -p 5024:5024   html-server
 docker ps
-# Hands-On– Lab-03-Basic Commands based on Jenkins
+apk add ncdu
+
 ```
+# Hands-On– Lab-03-Basic Commands based on Jenkins
+
 - Jenkins docker pull and docker run on one command​
 - Open the Jenkins via the browser​
 - Create free style Job of "Hello world"​
