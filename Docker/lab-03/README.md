@@ -1,3 +1,28 @@
+# Hands-On– Lab-03-Basic Commands based on Jenkins
+
+- Jenkins docker pull and docker run on one command​
+- Open the Jenkins via the browser​
+- Create free style Job of "Hello world"​
+- Go to the logs of Jenkins​
+  
+## Solution: Docker pull & Docker run via port
+
+
+```
+docker pull jenkins/jenkins
+docker run -p 8080:8080 --name=jenkins-master -d jenkins/jenkins
+docker ps
+docker ps -a
+```
+- Go to the login page via the browser http://localhost:8080/
+- Generate and past the password into the login page
+
+```
+docker logs --follow jenkins-master           # past the password in order to get login page and admin@admin as default
+```
+
+
+
 ### Build a new Image via Dockerfile base on nodejs and jenkins images
 
 - Create a app.js Application based of Node which running ​
@@ -49,7 +74,6 @@ docker run -it jenkins-with-nodejs:1.0 /bin/bash
 cd /usr/local/bin/
 node -v
 ```
-
 
 
 ## Hands-On - Docker network - Two diff bridge mynet
