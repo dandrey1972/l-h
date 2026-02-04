@@ -8,6 +8,7 @@
   - Remove the image and and container id **docker run time**
   - Pull the image from your docker hub
   - Docker run with two diffrent port
+  - Add additinal run layer with &&
     - .i.e
 ```
 http://localhost:5023
